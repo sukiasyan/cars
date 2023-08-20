@@ -1,4 +1,4 @@
-export const index = [
+export const manufacturers = [
   'Acura',
   'Alfa Romeo',
   'Aston Martin',
