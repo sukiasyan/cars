@@ -6,12 +6,13 @@ import { CustomButtonStyles } from '@/types'
 const CustomButton = ({
   title,
   containerStyles,
-  handleClick
+  handleClick,
+  btnType
 }: CustomButtonStyles) => {
   return (
     <button
       disabled={false}
-      type="button"
+      type={btnType || 'button'}
       className={`custom-btn ${containerStyles}`}
       onClick={handleClick}
     >
