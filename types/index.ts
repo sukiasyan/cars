@@ -9,9 +9,9 @@ export interface CustomButtonStyles {
   rightIcon?: string
 }
 
-export interface SearchManufacturerProps {
+export interface SearchManuFacturerProps {
   manufacturer: string
-  setManufacturer: (manufacturer: string) => void
+  setManuFacturer: (manufacturer: string) => void
 }
 
 export interface FilterProps {
