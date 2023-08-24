@@ -1,4 +1,5 @@
 import { MouseEventHandler } from 'react'
+import { Option } from 'commander'
 
 export interface CustomButtonStyles {
   title: string
@@ -20,6 +21,16 @@ export interface FilterProps {
   model?: string
   limit?: number
   fuel?: string
+}
+
+export interface OptionProps {
+  title: string
+  value: string
+}
+
+export interface CustomFilterProps {
+  title: string
+  options: OptionProps[]
 }
 
 export interface CarProps {
